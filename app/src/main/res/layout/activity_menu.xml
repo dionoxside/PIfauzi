@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aizawa.myapplication1.Menu_awal">
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ondel"
+        android:scaleType="centerCrop"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:text="Tarian Tradisional"
+        android:background="@drawable/roundedbutton"
+        android:id="@+id/TT" />
+    <android.support.v7.widget.AppCompatButton
+        android:padding="10dp"
+        android:background="@drawable/roundedbutton"
+        android:id="@+id/RA"
+        android:layout_marginTop="10dp"
+        android:text="Rumah Adat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatButton
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Kesenian"
+        android:background="@drawable/roundedbutton"
+        android:text="Kesenian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatButton
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:text="Adat Kebudayaan"
+        android:background="@drawable/roundedbutton"
+        android:id="@+id/AK" />
+    <android.support.v7.widget.AppCompatButton
+        android:padding="10dp"
+        android:background="@drawable/roundedbutton"
+        android:id="@+id/PA"
+        android:layout_marginTop="10dp"
+        android:text="Pakaian Adat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <android.support.v7.widget.AppCompatButton
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/MT"
+        android:background="@drawable/roundedbutton"
+        android:text="Makanan Tradisional"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

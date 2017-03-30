@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aizawa.myapplication1.MainActivity">
+<android.support.v7.widget.AppCompatImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ondel"
+    android:scaleType="centerCrop"/>
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:background="@drawable/roundedbutton"
+        android:id="@+id/Menu"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+    <android.support.v7.widget.AppCompatButton
+        android:padding="10dp"
+        android:background="@drawable/roundedbutton"
+        android:id="@+id/About"
+        android:layout_marginTop="10dp"
+        android:text="About"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Menu"/>
+    <android.support.v7.widget.AppCompatButton
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Exit"
+        android:background="@drawable/roundedbutton"
+        android:text="Exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/About"/>
+</RelativeLayout>

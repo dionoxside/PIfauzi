@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application1</string>
+    <string name="About">Aplikasi ini dibuat untuk anda mengetahui tentang\n
+                          beraneka ragam kebudayaan jakarta, diaplikasi ini anda dapat mengetahui tentang tarian tradisional\n, rumah adat
+                          keseniaan, adat kebudayaan, pakaian adat, rumah adat\n
+                          yang berasal dari jakarta\n\n
+                          Pembuat Ahmad Fauzi Rizaldi\n
+                          Universitas Gunadarma\n
+                          4IA10\n
+                          50413418</string>
+</resources>
