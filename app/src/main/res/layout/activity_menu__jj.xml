@@ -1,21 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_menu__jj"
     android:layout_width="match_parent"
-    android:layout_margin="16dp"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context="com.example.aizawa.myapplication1.MenuTT">
     <LinearLayout
-        android:layout_gravity="center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center">
-    <VideoView
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:id="@+id/video"/>
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:text="Tarian Yapong"
+            android:background="@drawable/roundedbutton"
+            android:id="@+id/ty" />
+        <android.support.v7.widget.AppCompatButton
+            android:padding="10dp"
+            android:background="@drawable/roundedbutton"
+            android:id="@+id/ttb"
+            android:layout_marginTop="10dp"
+            android:text="Tari Topeng Betawi "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <android.support.v7.widget.AppCompatButton
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tsk"
+            android:background="@drawable/roundedbutton"
+            android:text="Tari Sirih Kuning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <android.support.v7.widget.AppCompatButton
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:text="Tari Lenggang Nyai"
+            android:background="@drawable/roundedbutton"
+            android:id="@+id/tln" />
+        <android.support.v7.widget.AppCompatButton
+            android:padding="10dp"
+            android:background="@drawable/roundedbutton"
+            android:id="@+id/tj"
+            android:layout_marginTop="10dp"
+            android:text="Tari Japin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <android.support.v7.widget.AppCompatButton
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tc"
+            android:background="@drawable/roundedbutton"
+            android:text="Tari Cokek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
     </LinearLayout>
-</LinearLayout>
+</RelativeLayout>
